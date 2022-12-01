@@ -9,11 +9,14 @@ class Feladat1Controller {
         const gomb = $("button");
         //feladata a modell példányosítása
         const feladat1Model = new Feladat1Model();
+        //esemény esetén
         gomb.on("click", () => {
             //itt utasítom a modellt a számítás elvégzésére
+            //lekérjük a modelltől a programunk új állapotát
             let eredmeny = feladat1Model.getModellAdat()
             //lekérem a modellből az eredményt
             //átadom a view-nak
+            //az új állapotot átadjuk a View-nak megjelenítésre
             feladat1View.setErtek(eredmeny);
         });
     }
