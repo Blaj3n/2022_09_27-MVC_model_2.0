@@ -5,3 +5,5 @@ class Feladat1View {
         this.pElem.html(adat);
     }
 }
+
+export default Feladat1View;
