@@ -7,3 +7,5 @@ class Feladat1Controller{
         new Feladat1View("adat",szuloelem)
     }
 }
+
+export default Feladat1Controller;
