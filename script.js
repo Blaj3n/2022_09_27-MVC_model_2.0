@@ -1,4 +1,4 @@
-import Feladat1Controller from "../Controller/feladat1Controller";
+import Feladat1Controller from "../Controller/feladat1Controller.js";
 
 //itt fogjuk példányosítani az osztályainkat
 //itt fogjuk definiálni a dokument ready eseményhez tartozó névtelen jquery függvényt

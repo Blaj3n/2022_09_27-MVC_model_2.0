@@ -1,8 +1,12 @@
 class Feladat1View {
-    constructor(adat, szuloelem){
-        szuloelem.append("p");
+    constructor(adat, szuloelem) {
+        szuloelem.append("<p>");
         this.pElem = szuloelem.children("p")
-        this.pElem.html(adat);
+        this.setErtek(adat);
+    }
+
+    setErtek(jel) {
+        this.pElem.html(jel);
     }
 }
 
